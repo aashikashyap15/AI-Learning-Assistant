@@ -7,8 +7,8 @@ import toast from 'react-hot-toast';
 
 const LoginPage = () => {
 
-  const [email, setEmail] = useState('alex@timetoprogram.com');
-  const [password, setPassword] = useState('password');
+  const [email, setEmail] = useState(' ');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const [focusedField, setFocusedField] = useState(null);
@@ -46,7 +46,7 @@ const LoginPage = () => {
               <BrainCircuit className="w-7 h-7 text-white" strokeWidth={2} />
             </div>
             <h1 className="text-2xl font-medium text-slate-900 tracking-tight mb-2">
-              Welcome back
+              Welcome Back
             </h1>
             <p className="text-slate-500 text-sm">
               Sign in to continue your journey

@@ -68,7 +68,7 @@ const FlashcardManager = ({ documentId }) => {
 
     await flashcardService.reviewFlashcard(card._id, index);
 
-    toast.success("Flashcard reviewed!");
+    
   } catch (error) {
     console.error("Review error:", error);
   }

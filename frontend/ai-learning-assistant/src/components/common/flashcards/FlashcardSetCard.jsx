@@ -40,7 +40,7 @@ const FlashcardSetCard = ({ flashcardSet }) => {
             {flashcardSet?.documentId?.title}
           </h3>
 
-          <p className="text-xs font-medium text-slate-500 uppercase tracking-wide">
+          <p className="text-xs font-medium text-slate-500 lowercase tracking-wide">
             Created {moment(flashcardSet.createdAt).fromNow()}
           </p>
         </div>

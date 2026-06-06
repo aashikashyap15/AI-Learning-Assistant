@@ -80,7 +80,7 @@ const handleReview = async (index) => {
 
   try {
     await flashcardService.reviewFlashcard(currentCard._id, index);
-    toast.success("Flashcard reviewed!");
+    
   } catch (error) {
     toast.error("Failed to review flashcard.");
   }
